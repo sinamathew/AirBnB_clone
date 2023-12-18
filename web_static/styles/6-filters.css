@@ -50,3 +50,37 @@ h4 {
   margin: 0px;
   padding: 0px;
 }
+
+.popover {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 10px;
+  list-style: none;
+}
+
+section.filters:hover .locations .popover,
+section.filters:hover .amenities .popover {
+  display: block;
+}
+
+.popover ul {
+  margin: 0;
+  padding: 0;
+}
+
+.popover ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.popover h2 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
